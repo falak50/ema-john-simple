@@ -19,7 +19,7 @@ const Cart = (props) => {
     const grandTotal = (total + shiping + Number(tax)).toFixed(2);
     return (
         <div>
-            <h3>oder sumary</h3>
+            <h3 className='text-primary'>oder sumary</h3>
             <h5>Items Odered : {props.cart.length}</h5>
             <p>Product Price {total}</p>
             <p>Shiping Cost : {shiping}</p>
